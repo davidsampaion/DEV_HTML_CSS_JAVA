@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exemplos formulario</title>
+</head>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<body>
+
+
+
+<form action="mailto:david@mail.com" method="post">
+<label for="camponome">Nome completo:</label>
+<input type="text"name="camponome">
+
+<label for="camponumero">Sua idade</label>
+<input type="number" name="camponumero">
+
+<label for="campodata">Data de Nascimento</label>
+<input type="datetime-local" name="campodata">
+
+<br>
+
+<label for="campoemail">Seu melhor email</label>
+<input type="email" required>
+
+<label for="camposenha">Sua senha</label>
+<input type="password" name="camposenha" minlength="6" required>
+
+
+<label for="camposelect">Sua Cidade</label>
+<select name="camposelect" id="">
+    <option value=""></option>
+    <option value= "">Opcao 01</option> 
+    <option value= "">Opcao 02</option> 
+    <option value= "">Opcao 03</option> 
+    <option value= "">Opcao 04</option> 
+    <option value= "">Opcao 05</option> 
+
+    <textarea placeholder="Sua Mensagm" minlength="500"></textarea> 
+</select>
+
+
+
+<button type="submit">Clique aqui</button>
+
+</form>
+
+
+
+</body>
+
+
+</html>
